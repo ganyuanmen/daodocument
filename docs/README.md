@@ -1,5 +1,9 @@
 #  道易程前端api（daoapi）介绍
 daoapi 是一个专门用于操作 dao 合约的框架， 封装了与智能合约交互的操作过程。让用户以函数的方式直接调用合约的功能。
+::: tip 版本更新提示
+请实时关注我们的GitHup,我们把版本更新及bug 更正都发布在GitHup上。
+[道易程daoapi](https://github.com/ganyuanmen/daoapi).
+:::
 
 ## 安装
 ```js
