@@ -1,4 +1,5 @@
 #  道易程前端api（daoapi）介绍
+<<<<<<< HEAD
 daoapi 是一个专门用于操作 dao 合约的api， 封装了与智能合约交互的操作过程。让用户以函数的方式直接调用以太坊的智能合约。
 共有7个类
 - dao 管理类 (对象实例：register)
@@ -8,6 +9,13 @@ daoapi 是一个专门用于操作 dao 合约的api， 封装了与智能合约�
 - eth 兑换token (对象实例：ethToToken)
 - commulate 兑换值查询 (对象实例：commulate)
 - logo 图片处理 (对象实例：logo)
+=======
+daoapi 是一个专门用于操作 dao 合约的框架， 封装了与智能合约交互的操作过程。让用户以函数的方式直接调用合约的功能。
+::: tip 版本更新提示
+请实时关注我们的GitHup,我们把版本更新及bug 更正都发布在GitHup上。
+[道易程daoapi](https://github.com/ganyuanmen/daoapi).
+:::
+>>>>>>> 72ece95af210b323d28b8061cbda87583af816ac
 
 > 具体的使用方法参见左边菜单信息
 
