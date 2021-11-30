@@ -21,12 +21,10 @@ module.exports = {
     }
   },
   themeConfig : {
-    // nav : [
-    //     { text: '接口', link: '/interface' },
-    //     { text: '事件', link: '/events' },
-    //     { text: 'abi', link: '/abi' },
-    //     { text: '合约地址', link: '/address' }
-    // ],
+    nav : [
+        { text: 'dao网站部署', link: '/system' }
+     
+    ],
     sidebar: {
         '/' : [
          
