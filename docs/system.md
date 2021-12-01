@@ -67,13 +67,31 @@ ENTRYPOINT ["java", "-jar","/home/daoserver-0.1.jar"]
 
 ### 1、mysql 数据库的安装
 下载 mysql 脚本文件，登录后，运行 source /admin.sql
-附件: admin.sql https://uploader.shimo.im/f/cgN3S61KX2B4QPJR.sql?accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhY2Nlc3NfcmVzb3VyY2UiLCJleHAiOjE2MzgyNzAyMzEsImciOiJRNktrSjlEeWN0Nkt2V2d3IiwiaWF0IjoxNjM4MjY5OTMxLCJ1c2VySWQiOjcxMDYxOTk1fQ.zMJReydTk-wB9WneN_DNjkBEhha_qg-_VdSer-Iqad0
+
+::: tip 下载提示
+从github下载dao 网站。执行其中的admin.sql 
+[dao网站GitHup](https://github.com/ganyuanmen/daoDapp0.5).
+:::
 
 ### 2、dao的后台服务部署
  从git hub 下载 dao 服务（springboot）项目，在配置文件中更改mysql的登录地址、帐号和密码。编译成jar 包发布到linux 服务器， 或编译成war包发布到 tomcat下。
 
+ 
+::: tip 下载提示
+[dao后台服务GitHup](https://github.com/ganyuanmen/daoserver).
+:::
+
+
 ### 3、dao的事件监听服务部署
  从git hub 下载 dao事件服务(nodejs)项目，在配置文件sn.txt 中更改mysql的登录地址、帐号和密码。包发布到linux 服务器。
+  
+::: tip 下载提示
+[dao事件监听服务GitHup](https://github.com/ganyuanmen/daoNodeService).
+:::
 
 ### 4、dao网站部署
  从git hub 下载 dao网站项目(webpack), 打包后，发布到nginx 或httpd 下。
+ 
+ ::: tip 下载提示
+[dao网站GitHup](https://github.com/ganyuanmen/daoDapp0.5).
+:::
